@@ -1,6 +1,6 @@
 require 'yaml'
 
-# open the test.txt file and load the existing array into the variable
+# open the test.txt file and load the existing array into the variable 'array'
 array = YAML::load_file "test.txt"
 
 # put the array to the screen
